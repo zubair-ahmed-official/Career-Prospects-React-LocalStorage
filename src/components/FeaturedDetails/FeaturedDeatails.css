@@ -1,0 +1,43 @@
+.Background{
+    /* background-size: 1000px; */
+    background-color: rgba(126,144,254,0.1);
+    padding: 50px 0px;
+    width: 100%;
+    top: 0px;
+    position: static;
+}
+
+
+.FeaturedDeatails
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 180px;
+}
+.descriptions 
+{
+    width: 700px;
+    color: grey;
+}
+.jobsDetails
+{
+    background-color: rgba(126,144,254,0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px 40px;
+}
+.btn-applyNow
+{
+    width: 100%;
+    padding: 10px 25px;
+    background-color: rgb(118, 137, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fontColor
+{
+    color:rgba(118, 137, 255, 0.8);
+}

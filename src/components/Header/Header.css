@@ -1,0 +1,64 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 30px 10px 30px ;
+    background-color: rgba(126,144,254,0.1);
+}
+.CareerProspects
+{
+    color: black;
+    text-decoration: none;
+}
+.Links a {
+    margin: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    /* color: rgba(128, 128, 128, 0.8); */
+}
+.LinkColor{
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.btn-startApply {
+    padding: 15px 25px;
+    background-color: rgb(118, 137, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+@media screen and (width < 700px)
+{
+    .navBar {
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 10px ;
+        background-color: rgba(126,144,254,0.1);
+    }
+    .CareerProspects
+    {
+        color: black;
+        text-decoration: none;
+    }
+    .Links a {
+        display: block;
+        margin: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        color: rgba(128, 128, 128, 0.8);
+    }
+    
+    .btn-startApply {
+        padding: 15px 25px;
+        margin: 10px;
+        background-color: rgb(118, 137, 255);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

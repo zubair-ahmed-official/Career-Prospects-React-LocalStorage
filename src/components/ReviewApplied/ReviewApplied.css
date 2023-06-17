@@ -1,0 +1,45 @@
+.ReviewApplied
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 55%;
+    margin: 25px;
+    margin-left: 350px;
+}
+.ReviewApplied p,span
+{
+    color: grey;
+    font-weight: 600;
+}
+.ReviewApplied img{
+    width: 100px;
+    height: 35px;
+    margin: 30px 25px;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 50px;
+    border-radius: 6px;
+}
+.btn-viewdetails
+{
+    margin: 0px 0;
+    padding: 12px 25px;
+    background-color: rgb(118, 137, 255);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    right: 400px;
+    position:absolute;
+}
+.border2
+{
+    border: 2px solid rgba(126, 144, 254, 0.8);
+    margin: 10px 1px 10px 0;
+    padding: 8px 18px;
+    color: rgba(126, 144, 254, 2);
+    border-radius: 8px;
+    font-weight: 600;
+}

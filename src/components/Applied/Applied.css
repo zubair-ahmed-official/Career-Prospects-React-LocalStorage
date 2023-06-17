@@ -1,0 +1,76 @@
+.Applied {
+    margin-top: 180px;
+}
+.VectorImg
+{
+    height: 160px;
+    position: absolute;
+    top:125px
+}
+.Vector1Img
+{
+    height: 110px;
+    position: absolute;
+    top:10px;
+    right: 6px;
+}
+.BackgroundApplied
+{
+    background-color: rgba(126,144,254,0.1);
+    padding: 50px 0px;
+    width: 100%;
+    top: 0px;
+    position: static;
+}
+.filterBy {
+    /* margin-left: 1100px; */
+    width: 120px;
+    height: 50px;
+    top: 400px;
+    right: 350px;
+    position: absolute;
+    border: none;
+}
+
+.selectfilterBy {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    transition: transform 0.5s;
+}
+
+.selectRemote {
+    /* margin-left: 0px; */
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    transition: transform 0.5s;
+}
+
+.selectOnsite {
+    /* margin-left: 50px; */
+    width: 120px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.filterBy:hover .selectRemote {
+    transform: translate(0px, 50px);
+}
+
+.filterBy:hover .selectOnsite {
+    transform: translate(0px, 100px);
+}
+
+
+.selectRemote:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.selectOnsite:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}

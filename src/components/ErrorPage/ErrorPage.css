@@ -1,0 +1,11 @@
+.error
+{
+    color: brown;
+    border: 3px solid crimson;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    left: 650px;
+    top: 100px;
+    position: relative;
+}
